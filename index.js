@@ -21,7 +21,7 @@ class Circle {
     }
     
     get area() {
-        return (Math.PI * this.radius * this.radius);
+        return Math.PI * (this.radius * this.radius);
     }
     set area(newArea) {
         const newRadiusSq = newArea/Math.PI;
